@@ -27,8 +27,9 @@ function deleteFromObjectByKey(object, key){
   return newObj;
 }
 
-/*5
+/*4 and 5
 */
+
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object.key;
   return object;
