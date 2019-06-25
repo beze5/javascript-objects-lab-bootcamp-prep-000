@@ -34,14 +34,10 @@ function deleteFromObjectByKey(object, key){
 
 /* incorrect - wait and do the rest first
 */
-function destructivelyUpdateObjectWithKeyandValue(object, key, value){
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
   return object;
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
- object[key] = value
-return object;
-}
 
 
