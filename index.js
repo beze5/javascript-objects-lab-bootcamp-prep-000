@@ -3,7 +3,7 @@ var recipes = {};
 
 
 
-/*1 - correct
+/*correct
 */
 
 function updateObjectWithKeyAndValue(object, key, value){
@@ -13,22 +13,22 @@ function updateObjectWithKeyAndValue(object, key, value){
 
 
 
-/*2
+/*1 - incorrect
 */
 function destructivelyUpdateObjectWithKeyandValue(object, key, value){
   object[key] = value; 
-  return objec;
+  return object;
 }
 
 
 
-/*3
+/*2 - 
 */
 
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object);
   delete newObj.key;
-  return newObj;
+  return newOj;
 }
 
 /*4 and 5
