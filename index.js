@@ -6,7 +6,7 @@ function updateObjectWithKeyAndValue(object, key, value){
 }
 
 function destructivelyUpdateObjectWithKeyandValue(object, key, value){
-  var object = {key
+  var object = {key: value}
 }
 
 
