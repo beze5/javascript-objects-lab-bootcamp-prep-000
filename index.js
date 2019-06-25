@@ -3,8 +3,8 @@ var recipes = {};
 /*1 
 */
 function updateObjectWithKeyAndValue(object, key, value){
-  ;
-  return newObj;
+  object;
+  return object;
 }
 
 
