@@ -28,11 +28,7 @@ function deleteFromObjectByKey(object, key){
 }
 
 
-
-
-
-
-/* incorrect - wait and do the rest first
+/* correct
 */
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key] = value;
