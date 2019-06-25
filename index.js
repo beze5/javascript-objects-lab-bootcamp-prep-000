@@ -25,7 +25,7 @@ function deleteFromObjectByKey(object, key){
 /* incorrect
 */
 function destructivelyUpdateObjectWithKeyandValue(object, key, value){
-  object[key] 
+  object[key] = value;
 }
 
 
