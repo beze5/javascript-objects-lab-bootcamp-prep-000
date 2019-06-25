@@ -1,4 +1,4 @@
-var recipes = {soup: 'lentils'};
+var recipes = {};
 
 /*1 
 */
