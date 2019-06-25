@@ -2,6 +2,14 @@ var recipes = {};
 
 
 
+/*correct
+*/
+
+function destructivelyDeleteFromObjectByKey(object, key){
+  delete object[key];
+  return object;
+}
+
 
 /*correct
 */
@@ -22,6 +30,8 @@ function deleteFromObjectByKey(object, key){
 
 
 
+
+
 /* incorrect - wait and do the rest first
 */
 function destructivelyUpdateObjectWithKeyandValue(object, key, value){
@@ -30,14 +40,6 @@ function destructivelyUpdateObjectWithKeyandValue(object, key, value){
 }
 
 
-
-/*incorrect
-*/
-
-function destructivelyDeleteFromObjectByKey(object, key){
-  delete object[key];
-  return object;
-}
 
 
 
