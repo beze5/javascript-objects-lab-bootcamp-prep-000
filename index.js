@@ -22,13 +22,13 @@ function destructivelyUpdateObjectWithKeyandValue(object, key, value){
 
 
 
-/*2 - 
+/*2 - correct
 */
 
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object);
   delete newObj.key;
-  return newOj;
+  return newObj;
 }
 
 /*4 and 5
