@@ -10,19 +10,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({},object,{[key]: value})
 }
 
-
-
-
-/*1 - incorrect
-*/
-function destructivelyUpdateObjectWithKeyandValue(object, key, value){
-  object[key] = value; 
-  return object;
-}
-
-
-
-/*2 - correct
+/*correct
 */
 
 function deleteFromObjectByKey(object, key){
@@ -31,7 +19,20 @@ function deleteFromObjectByKey(object, key){
   return newObj;
 }
 
-/*4 and 5
+
+
+
+/* incorrect
+*/
+function destructivelyUpdateObjectWithKeyandValue(object, key, value){
+  object[key] = value; 
+  return object;
+}
+
+
+
+
+/*incorrect
 */
 
 function destructivelyDeleteFromObjectByKey(object, key){
